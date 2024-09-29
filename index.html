@@ -8,9 +8,9 @@
 <body>
     <nav>
         <ul>
-            <li><a href="blog"></a>Blog</li>
-            <li><a href="media"></a>Media</li>
-            <li><a href="about"></a>About</li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#media">Media</a></li>
+            <li><a href="#about">About</a></li>
         </ul>
     </nav>
 
@@ -35,9 +35,8 @@
         </section>
 
         <figure>
-            <img src="https://content.codecademy.com/courses/Semantic%20HTML/statue-of-liberty.jpeg">
-            <figcaption>This is the Statue of Liberty, a popular tourist attraction located on Liberty Island.
-            </figcaption>
+            <img src="https://content.codecademy.com/courses/Semantic%20HTML/statue-of-liberty.jpeg" alt="Statue of Liberty">
+            <figcaption>This is the Statue of Liberty, a popular tourist attraction located on Liberty Island. </figcaption>
         </figure>
 
         <aside>
@@ -62,9 +61,14 @@
                 <p>While the view in the city is beautiful, the sounds are not as lovely. Below you'll see an example of
                     the view and the sounds you'll deal with in NYC on a daily basis.</p>
             </article>
-            <video controls
-                src="https://content.codecademy.com/courses/Semantic%20HTML/nyc-skyline-timelapse.mp4"></video>
-            <embed src="https://content.codecademy.com/courses/Semantic%20HTML/nyc-skyline.jpeg" type="">
+            <figure>
+                <video controls src="https://content.codecademy.com/courses/Semantic%20HTML/nyc-skyline-timelapse.mp4"></video>
+                <figcaption>Timelapse of NYC Skyline</figcaption>
+            </figure>
+            <figure>
+                <embed src="https://content.codecademy.com/courses/Semantic%20HTML/nyc-skyline.jpeg" type="image/jpeg">
+                <figcaption>Scenic view of NYC</figcaption>
+            </figure>
             <audio src="https://content.codecademy.com/courses/Semantic%20HTML/nyc-sounds.mov" controls></audio>
         </section>
     </main>
